@@ -1,0 +1,17 @@
+<section class="features section">
+    <div class="container">
+        <div class="features-inner section-inner has-bottom-divider">
+            <div class="features-wrap">
+                {% for feature in site.features | limit:6 %}<div class="feature text-center is-revealing">
+                    <div class="feature-inner">
+                        <div class="feature-icon">
+                            <img src="static/images/feature-icon-0{{ forloop.index }}.svg" alt="Feature {{ forloop.index }}">
+                        </div>
+                        <h4 class="feature-title mt-24">{{ feature.title }}</h4>
+                        <p class="text-sm mb-0">{{ feature.descr }}</p>
+                    </div>
+                </div>{% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

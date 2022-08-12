@@ -1,0 +1,57 @@
+# Thanks to https://cruip.com/demos/solid/ for providing the HTML
+# template on which this jekyll implementation is based. This is 
+# the jekyll configuration for staresc's website. Enjoy :)
+# Website Author: 5amu <casalinovalerio.cv@gmail.com>
+
+title: Staresc
+description: >-
+  Staresc is a Fast and Reliable Local Vulnerability Scanner 
+  for the Bored Penetration Tester
+baseurl: "/"
+url: "https://staresc.github.io"
+
+logo: /static/images/logo.svg
+
+project:
+  github: https://github.com/staresc/staresc
+  documentation: https://staresc.github.io/documentation
+
+buttons:
+  first: It's Open Source <3
+  second: ...and documented
+
+features:
+  - title: Reliable
+    descr: >-
+      Staresc is designed to allow zero false positives in its plugins. No matter 
+      what, if Staresc reports it, it is true.
+  - title: Extensible
+    descr: >-
+      Staresc's plugin structure allows the user to quickly write a new plugin to 
+      recheck a vulnerability. Plus, plugins are language independent.
+  - title: Fast
+    descr: >-
+      Staresc's code design allows it to parse multiple targets at once, having a
+      concurrent approach to the scan.
+
+authors:
+  - name: Valerio Casalino
+    role: Creator of the Tool
+    desc: >-
+      Lazy individual in the cyber security industry that decided to automate 
+      some common vulnerability checks that kept finding during his assessments
+    linkedin: https://linkedin.com/valerio-casalino
+    github: https://github.com/5amu
+  
+  - name: Davide Cecchini
+    role: Main Developer
+    desc: >-
+      Not-So-Lazy individual that joined the project for academic purposes and 
+      keeps developing this tool with heart
+    linkedin: https://linkedin.com/davide-cecchini-b88403227
+    github: https://github.com/cekout
+
+cta:
+  text: Still not convinced on putting a star?
+  button_text: Become a Stargazer
+  link: https://github.com/staresc/staresc
